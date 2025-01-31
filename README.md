@@ -55,6 +55,13 @@ Uso
    python erc/load.py
    ```
 
+# O que o código faz?
+
+- O código carrega as variáveis de ambiente do arquivo '.env'.
+- Define a URL da API OpenAI e os cabeçalhos necessários para a solicitação.
+- Cria um pbjeto de dados que contém o modelo a ser usado e a mensagem do usuário.
+- Envia uma solicitação POST para API e imprimi a resposta recebida, que contém a pergunta "Qual é a capital da França?".
+
 ## Contribuição
 
 Fique à vontade para contribuir enviando pull requests ou relatando issues.
